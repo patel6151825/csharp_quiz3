@@ -17,9 +17,9 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <Button x:Name="btnTask1" Content="Task1" Click="btnTask1_Click" Grid.Row="0" Width="100" Height="50"></Button>
-            <Button x:Name="btnTask2" Content="Task2" Click="btnTask2_Click" Grid.Row="1" Width="100" Height="50"></Button>
-            <Button x:Name="btnTask3" Content="Task3" Click="btnTask3_Click" Grid.Row="2" Width="100" Height="50"></Button>
+             <Button x:Name="btnTask1" Content="Task1" Click="btnTask1_Click" Grid.Row="0" Width="100" Height="50" FontWeight="Bold" Background="Aquamarine" Foreground="DarkRed" Margin="10"></Button>
+            <Button x:Name="btnTask2" Content="Task2" Click="btnTask2_Click" Grid.Row="1" Width="100" Height="50" FontWeight="Bold" Background="Aquamarine" Foreground="DarkRed" Margin="10"></Button>
+            <Button x:Name="btnTask3" Content="Task3" Click="btnTask3_Click" Grid.Row="2" Width="100" Height="50" FontWeight="Bold" Background="Aquamarine" Foreground="DarkRed" Margin="10"></Button>
         </Grid>
     </StackPanel>
 </Window>
